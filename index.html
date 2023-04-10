@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handling Try Catch Final</title>
+</head>
+<body>
+    
+    <h4>When we try to find error in code block then we use try catch for debugging </h4>
+    <p>Error Handling try, catch, finally, throw</p>
+    <p> try catch handle runtime error </p>
+    <p>finally statement - execute code, after try and catch</p>
+    <script>
+
+        // alert('Hello, world!');
+        // alert(text) // it will be show reference error message
+        // alert("Hello Learner!");
+
+        try {
+            // 
+            alert('Hello, world!');
+            alert(x)
+            alert("welcome to JS try catch!");
+        } catch (error) {
+            console.log(error);
+            console.log(error.name);
+            console.log(error.message);
+        }
+        finally{
+            // when we want to set any value forcefully then we need to use finally, but it not good practice.
+            alert('your task has finished')
+        }
+    </script>
+</body>
+</html>
